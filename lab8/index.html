@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src= "https://code.jquery.com/jquery-2.2.4.min.js" ></script>
+    <script src= "https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+
+</head>
+<body>
+    <div class="headerwrap">
+        <br>
+        <div class="body1">
+            <p><h3>From:</h3></p>
+            <p><h3>To:</h3></p>
+            <p><h3>Fun:</h3></p>
+        </div>
+        <div class="body2">
+            <p><h3><input type="text" class="from" size="3" value="0"></h3></p><br><br><br>
+            <p><h3><input type="text" class="to" size="10" value="35"></h3></p><br><br>
+            <p><h3><input type="text" class="fun" size="10" value="Math.sin(x)*Math.exp(x/10)"></h3></p>
+            <button onclick="">Plot!</button>
+        </div>
+        <div class="center">
+            <div class="coordinates_y">
+                <p class="py1"></p><p class="py2"></p><p class="py3"></p><p class="py4"></p><p class="py5"></p>
+            </div>
+            <canvas id="canvas" width="400" height="400"></canvas>
+        </div>
+        <div class="coordinates_x">
+            <p class="px1"></p><p class="px2"></p><p class="px3"></p><p class="px4"></p><p class="px5"></p>
+        </div>
+    </div>
+</body>
+</html>
